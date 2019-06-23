@@ -1,0 +1,28 @@
+
+  
+  .input {
+    width: 100%;
+  }
+
+  .quotes {
+    min-width: 150px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+  }
+
+.buttons{
+    padding-bottom: 20px; 
+    min-width: 150px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button{
+    margin-right: 10px;
+}

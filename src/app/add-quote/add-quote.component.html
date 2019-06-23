@@ -1,0 +1,13 @@
+<div class="buttons">
+  <button mat-flat-button class="button" routerLink="">Go back</button>
+  <button mat-flat-button class="button" routerLink="" (click)="saveConversation(author.value, quote.value)" >Save quote</button>
+</div>
+<form class="quotes">
+  <mat-form-field class="input">
+    <input #author matInput placeholder="Author">
+  </mat-form-field>
+
+  <mat-form-field class="input">
+    <textarea #quote matInput placeholder="Quote"></textarea>
+  </mat-form-field>
+</form>

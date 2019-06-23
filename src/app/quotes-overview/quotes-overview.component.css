@@ -1,0 +1,36 @@
+.card{
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.quotes {
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+.conversation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+.quote{
+    font-family: 'Roboto', monospace;
+    padding-top: 2px;
+    text-align: left;
+}
+
+.author {
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-size: 13px;
+    color:#727272;
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}

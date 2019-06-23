@@ -1,0 +1,11 @@
+<div class="button">
+        <button mat-flat-button routerLink="add-quote">New quote</button>
+</div>
+<div *ngFor="let conversation of conversations" class="conversation">
+        <mat-card class="card">
+                <div *ngFor="let quote of conversation.quotes" class="quotes">
+                        <div class="author">- {{quote.author}} </div>
+                        <div class="quote"> {{quote.text}}</div>
+                </div>
+        </mat-card>
+</div>
